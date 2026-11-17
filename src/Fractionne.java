@@ -1,4 +1,4 @@
-public class Fractionne extends Course{
+public class Fractionne extends Sortie {
     int nombreRepetition;
 
     public Fractionne(String nom, double distanceKm, int tempsMinute, int nombreRepetition){

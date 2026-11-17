@@ -1,4 +1,4 @@
-public class Route extends Course{
+public class Route extends Sortie {
     boolean competition;
 
     public Route(String nom, double distanceKm, int tempsMinute, boolean competition){

@@ -1,4 +1,4 @@
-public class Trail extends Course{
+public class Trail extends Sortie {
     int denivelePositif;
 
     public Trail(String nom, double distanceKm, int tempsMinute, int denivelePositif){
