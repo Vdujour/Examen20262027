@@ -8,7 +8,7 @@ public class Fractionne extends Sortie {
 
     @Override
     public String decrire() {
-        return "Fractionne : " + nom + ", distance : " + distanceKm + "km , temps : " + tempsMinute + " minute(s), nombre de répétitions : " + nombreRepetition;
+        return "Fractionne : " + nom + ", distance : " + distanceKm + "km , temps : " + tempsMinute + " minute(s), nombre de répétitions : " + nombreRepetition+ ", allure moyenne : " + allureMoyenne() + ",  km-effort : " + kmEffort();
     }
 }
 

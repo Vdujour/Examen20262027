@@ -8,6 +8,10 @@ public class Trail extends Sortie {
 
     @Override
     public String decrire() {
-        return "Trail : " + nom + ", distance : " + distanceKm + "km , temps : " + tempsMinute + " minute(s), dénivelé : " + denivelePositif +" mètres";
+        return "Trail : " + nom + ", distance : " + distanceKm + "km , temps : " + tempsMinute + " minute(s), dénivelé : " + denivelePositif +" mètres" + ", allure moyenne : " + allureMoyenne() + ",  km-effort : " + kmEffort();
+    }
+
+    public double kmEffort(){
+        return distanceKm + (denivelePositif/100.00);
     }
 }

@@ -8,6 +8,6 @@ public class Route extends Sortie {
 
     @Override
     public String decrire() {
-        return "Route : " + nom + ", distance : " + distanceKm + "km , temps : " + tempsMinute + " minute(s), competition : " + competition;
+        return "Route : " + nom + ", distance : " + distanceKm + "km , temps : " + tempsMinute + " minute(s), competition : " + competition + ", allure moyenne : " + allureMoyenne() + ",  km-effort : " + kmEffort();
     }
 }

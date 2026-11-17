@@ -13,4 +13,12 @@ public abstract class Sortie {
 
     public abstract String decrire();
 
+    public double allureMoyenne(){
+        return tempsMinute/distanceKm;
+    }
+
+    public double kmEffort(){
+        return distanceKm;
+    }
+
 }
