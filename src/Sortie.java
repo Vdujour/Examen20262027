@@ -1,8 +1,8 @@
 public abstract class Sortie {
 
-    String nom;
-    double distanceKm;
-    int tempsMinute;
+    protected String nom;
+    protected double distanceKm;
+    protected int tempsMinute;
 
     /*Constructeur*/
     public Sortie(String nom, double distanceKm, int tempsMinute){
@@ -21,4 +21,8 @@ public abstract class Sortie {
         return distanceKm;
     }
 
+    /*getter*/
+    public double getDistanceKm() {
+        return distanceKm;
+    }
 }

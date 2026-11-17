@@ -1,5 +1,5 @@
 public class Fractionne extends Sortie {
-    int nombreRepetition;
+    private int nombreRepetition;
 
     public Fractionne(String nom, double distanceKm, int tempsMinute, int nombreRepetition){
         super(nom, distanceKm, tempsMinute);

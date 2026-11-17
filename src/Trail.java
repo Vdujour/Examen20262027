@@ -1,5 +1,5 @@
 public class Trail extends Sortie {
-    int denivelePositif;
+    private int denivelePositif;
 
     public Trail(String nom, double distanceKm, int tempsMinute, int denivelePositif){
         super(nom, distanceKm, tempsMinute);
@@ -13,5 +13,9 @@ public class Trail extends Sortie {
 
     public double kmEffort(){
         return distanceKm + (denivelePositif/100.00);
+    }
+
+    public int getDenivelePositif() {
+        return denivelePositif;
     }
 }

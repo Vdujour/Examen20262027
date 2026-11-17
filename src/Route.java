@@ -1,5 +1,5 @@
 public class Route extends Sortie {
-    boolean competition;
+    private boolean competition;
 
     public Route(String nom, double distanceKm, int tempsMinute, boolean competition){
         super(nom, distanceKm, tempsMinute);
